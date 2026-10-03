@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navigation Calculator</title>
+</head>
+<body>
+  <h1>Navigation Calculator</h1>
+
+  <!-- Feature 1: Time to arrival -->
+  <h2>Time to arrival</h2>
+  <form id="time-form">
+    <input id="distance" type="number" step="any" placeholder="Distance (NM)">
+    <input id="speed" type="number" step="any" placeholder="Speed (knots)">
+    <button type="submit">Calculate</button>
+  </form>
+  <p id="result"></p>
+
+  <!-- Feature 2: Speed -->
+  <h2>Speed</h2>
+  <form id="speed-form">
+    <input id="speed-distance" type="number" step="any" placeholder="Distance (NM)">
+    <input id="speed-hours" type="number" step="any" placeholder="Hours">
+    <input id="speed-minutes" type="number" step="any" placeholder="Minutes">
+    <button type="submit">Calculate</button>
+  </form>
+  <p id="speed-result"></p>
+
+  <h2>Distance  </h3>
+  <form id="distance-form">
+    <input id="distance-speed" type="number" step="any" placeholder="Speed (knots)">
+    <input id="distance-hours" type="number" step="any" placeholder="Hours">
+    <input id="distance-minutes" type="number" step="any" placeholder="Minutes">
+    <button type="submit">Calculate</button>
+  </form>
+  <p id="distance-result"></p>
+
+
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</body>
+</html>
